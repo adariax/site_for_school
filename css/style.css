@@ -3,50 +3,75 @@
     width: 100%;
     align: center;
 
-    background: #cda07f;
-    border-color: #291b1C;
+    background: #f5e7dc;
+    border-color: #312c2d;
 
-    border-bottom: 2px;
-    border-top: 2px;
+    border-bottom: 10px;
+    border-top: 10px;
+    border-top-style: solid;
+    border-bottom-style: solid;
 }
 
 .table_style {
     height: 100%;
     width: 100%;
-    background: #fad6b8;
+
+    margin-top: 1px;
+
+    border-collapse: collapse;
+    border-color: #312c2d;
+    border-bottom: 10px;
+    border-bottom-style: solid;
 }
 
-.content {
-    width: 80%;
-    align: center;
-    color: #291b1C;
-    font-size: 20px;
-}
+.side_menu_part {
+    background: #f5e7dc;
+    font-size: 24px;
+    font-family: "Arial Rounded MT Bold";
+    margin-bottom: 5px;
 
-.side_menu {
-    background: #cda07f;
-    margin-top: 2px;
+    margin-right: 10px;
 }
 
 .title_text {
     font-family: "Arial Rounded MT Bold";
-    color: #aa3039;
-    text-shadow: 1px 1px 0 #291b1C, -1px -1px 0 #291b1C, -1px 1px 0 #291b1C, 1px -1px 0 #291b1C,
+    color: #312c2d;
+    text-shadow: 1px 1px 0 #312c2d, -1px -1px 0 #312c2d, -1px 1px 0 #312c2d, 1px -1px 0 #312c2d;
     /* black shadow around text */
-    5px 1px 1em #fad6b8, -5px -1px 1em #fad6b8, -5px 1px 1em #fad6b8, 5px -1px 1em #fad6b8; /* 1em = 1 font size */
-    /* add some light for contrast */
+    margin-left: 15px;
 }
 
 .subtitle_text {
-    font-family: "Arial Rounded MT Bold";
-    color: #291b1c;
-    text-shadow:
-    5px 1px 1em #fad6b8, -5px -1px 1em #fad6b8, -5px 1px 1em #fad6b8, 5px -1px 1em #fad6b8; /* 1em = 1 font size */
-    /* add some light for contrast */
+    font-family: "Arial Narrow";
+    color: #a57e7f;
+    text-shadow: 1px 1px 0 #312c2d, -1px -1px 0 #312c2d, -1px 1px 0 #312c2d, 1px -1px 0 #312c2d;
+    /* black shadow around text */
+    margin-left: 15px;
+}
+
+.p {
+    margin-left: 15px;
+    /* more params */
+}
+
+.image {
+    float: right;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+    box-shadow: 0 0 1em #312c2d;
+}
+
+.content {
+    background: #f5e7dc;
+
+    color: #312c2d;
+    font-size: 20px;
+
 }
 /* Colours
-#cda07f - middle, use for selection background
-#fad6b8 - light, use for text's background
-#972c34 - red, use for selections
-#291b1C - dark, use for text
+#f5e7dc - light, can be used for backgrounds
+#a57e7f - middle, simple selections
+#312c2d - dark, used for text and simple contrast elements
+#5c3537 - colour for accents
 */
