@@ -1,0 +1,52 @@
+.head_style {
+    height: 20%;
+    width: 100%;
+    align: center;
+
+    background: #cda07f;
+    border-color: #291b1C;
+
+    border-bottom: 2px;
+    border-top: 2px;
+}
+
+.table_style {
+    height: 100%;
+    width: 100%;
+    background: #fad6b8;
+}
+
+.content {
+    width: 80%;
+    align: center;
+    color: #291b1C;
+    font-size: 20px;
+}
+
+.side_menu {
+    background: #cda07f;
+    margin-top: 2px;
+}
+
+.title_text {
+    font-family: "Arial Rounded MT Bold";
+    color: #aa3039;
+    text-shadow: 1px 1px 0 #291b1C, -1px -1px 0 #291b1C, -1px 1px 0 #291b1C, 1px -1px 0 #291b1C,
+    /* black shadow around text */
+    5px 1px 1em #fad6b8, -5px -1px 1em #fad6b8, -5px 1px 1em #fad6b8, 5px -1px 1em #fad6b8; /* 1em = 1 font size */
+    /* add some light for contrast */
+}
+
+.subtitle_text {
+    font-family: "Arial Rounded MT Bold";
+    color: #291b1c;
+    text-shadow:
+    5px 1px 1em #fad6b8, -5px -1px 1em #fad6b8, -5px 1px 1em #fad6b8, 5px -1px 1em #fad6b8; /* 1em = 1 font size */
+    /* add some light for contrast */
+}
+/* Colours
+#cda07f - middle, use for selection background
+#fad6b8 - light, use for text's background
+#972c34 - red, use for selections
+#291b1C - dark, use for text
+*/
