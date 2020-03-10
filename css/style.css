@@ -1,3 +1,8 @@
+::selection {
+    background: #cf9687; /* background's colour */
+    color: #f5e7dc; /* text's colour  */
+}
+
 .head_style {
     height: 20%;
     width: 100%;
@@ -12,7 +17,7 @@
     border-bottom-style: solid;
 }
 
-.table_style {
+.main_table_style {
     height: 100%;
     width: 100%;
 
@@ -26,11 +31,18 @@
 
 .side_menu_part {
     background: #f5e7dc;
+
     font-size: 24px;
     font-family: "Arial Rounded MT Bold";
-    margin-bottom: 5px;
 
+    margin-bottom: 5px;
     margin-right: 10px;
+
+    transition: 0.3s;
+}
+
+.side_menu_part:hover {
+    transform: scale(1.075);
 }
 
 .title_text {
@@ -47,19 +59,13 @@
     text-shadow: 1px 1px 0 #312c2d, -1px -1px 0 #312c2d, -1px 1px 0 #312c2d, 1px -1px 0 #312c2d;
     /* black shadow around text */
     margin-left: 15px;
+
+    font-size: 28px;
 }
 
 .p {
     margin-left: 15px;
     /* more params */
-}
-
-.image {
-    float: right;
-    padding-left: 10px;
-    padding-bottom: 10px;
-
-    box-shadow: 0 0 1em #312c2d;
 }
 
 .content {
@@ -69,9 +75,45 @@
     font-size: 20px;
 
 }
+
+.image {
+    float: right;
+
+    box-shadow: 0 0 3px #312c2d;
+
+    border-radius: 5px; /* for round corner */
+    border: 0px solid #312c2d;
+
+    margin: 10px;
+    margin-right: 50px;
+
+    transition: 0.7s;
+}
+
+.image:hover {
+    transform: scale(1.5);
+    box-shadow: 0 0 10px #312c2d;
+}
+
+button {
+    background: #a57e7f; /* Цвет фона */
+    color: #312c2d;
+    box-shadow: 0 0 5px rgba(49, 44, 45, 0.5);
+
+    padding: 0.5em 0.5em;
+    margin: 10px;
+    border-radius: 5px;
+
+    font-size: 20px;
+    font-family: "Arial Narrow";
+}
+
+button:active {
+    box-shadow: inset 0 0 5px rgba(49, 44, 45, 0.5);
+   }
 /* Colours
 #f5e7dc - light, can be used for backgrounds
 #a57e7f - middle, simple selections
 #312c2d - dark, used for text and simple contrast elements
-#5c3537 - colour for accents
+#cf9687 - colour for accents
 */
