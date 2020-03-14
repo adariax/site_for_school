@@ -46,7 +46,7 @@
     background: #f5e7dc;
     color: #312c2d;
 
-    font-size: 24px;
+    font-size: 30px;
     font-family: "Subitle";
 }
 
@@ -71,7 +71,7 @@
 
 .subtitle_text {
     font-family: "Subitle";
-    font-size: 26px;
+    font-size: 30px;
 
     color: #a57e7f;
     text-shadow: 1px 1px 0 #312c2d, -1px -1px 0 #312c2d, -1px 1px 0 #312c2d, 1px -1px 0 #312c2d;
@@ -120,7 +120,7 @@ button {
     margin: 15px;
     border-radius: 5px;
 
-    font-size: 20px;
+    font-size: 28px;
     font-family: "Subitle";
 }
 
@@ -149,6 +149,10 @@ button:active {
     padding: 10px;
 }
 
+.text_li {
+    font-family: "Subitle";
+}
+
 @font-face {
     font-family: Title;
     src: url(../fonts/title.otf);  /* CHANGE FOR PAGES */
@@ -158,6 +162,10 @@ button:active {
     font-family: Subitle;
     src: url(../fonts/subtitle.ttf);  /* CHANGE FOR PAGES */
    }
+
+h3 {
+    margin-left: 15px;
+}
 /* Colours
 #f5e7dc - light, can be used for backgrounds
 #a57e7f - middle, simple selections
