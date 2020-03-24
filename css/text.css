@@ -1,0 +1,27 @@
+@import url("fonts.css");
+
+.title_text {
+    font-family: "Title";
+    font-size: 36px;
+
+    color: #312c2d;
+    text-shadow: 1px 1px 0 #312c2d, -1px -1px 0 #312c2d, -1px 1px 0 #312c2d, 1px -1px 0 #312c2d;
+    /* black shadow around text */
+    margin-left: 15px;
+}
+
+.subtitle_text {
+    font-family: "Subitle";
+    font-size: 30px;
+
+    color: #a57e7f;
+    text-shadow: 1px 1px 0 #312c2d, -1px -1px 0 #312c2d, -1px 1px 0 #312c2d, 1px -1px 0 #312c2d;
+
+    margin-left: 15px;
+}
+
+p {
+    margin-left: 15px;
+    font-family: "Subitle";
+    /* more params */
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Title;
+    src: url('../fonts/title.otf');
+   }
+
+@font-face {
+    font-family: Subitle;
+    src: url('../fonts/subtitle.ttf');
+   }

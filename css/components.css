@@ -1,0 +1,71 @@
+@import url("fonts.css");
+
+::selection {
+    background: #cf9687; /* background's colour */
+    color: #f5e7dc; /* text's colour  */
+}
+
+.image {
+    float: right;
+
+    box-shadow: 0 0 3px #312c2d;
+
+    border-radius: 5px; /* for round corner */
+    border: 0px solid #312c2d;
+
+    margin: 15px;
+    margin-right: 50px;
+
+    transition: 0.7s;
+}
+
+.image:hover {
+    transform: scale(1.5);
+    box-shadow: 0 0 10px #312c2d;
+}
+
+button {
+    background: #cf9687;
+    color: #312c2d;
+    box-shadow: 0 0 3px rgba(49, 44, 45, 0.3);
+
+    padding: 0.5em 0.5em;
+    margin: 15px;
+    border-radius: 5px;
+
+    font-size: 28px;
+    font-family: "Subitle";
+}
+
+button:active {
+    box-shadow: inset 0 0 5px rgba(49, 44, 45, 0.3);
+   }
+
+.text_table {
+    font-size: 24px;
+    font-family: "Title";
+
+    border-collapse: collapse;
+    border: 3px solid #312c2d;
+
+    margin: 15px;
+
+}
+
+.text_td{
+    border: 3px solid #312c2d;
+    padding: 10px;
+}
+
+.text_tr:hover {
+    background: #cf9687;
+    padding: 10px;
+}
+
+.text_li {
+    font-family: "Subitle";
+}
+
+h3 {
+    margin-left: 15px;
+}
